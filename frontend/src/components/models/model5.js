@@ -323,11 +323,11 @@ export function Model(props) {
                   <a className="nav-linkk" href="/">Home<span className="sr-only" /></a>
                 </li>
                 <li className="nav-itemm "> 
-                  <a className="nav-linkk" href="About">About</a>
+                  <a className="nav-linkk" href="about">About</a>
                 </li>
               
                 <li className="nav-itemm "> 
-                  <a className="nav-linkk" href="Contact">Contact Us</a>
+                  <a className="nav-linkk" href="contact">Contact Us</a>
                 </li>
              
               </ul>

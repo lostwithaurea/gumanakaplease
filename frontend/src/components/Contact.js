@@ -34,7 +34,7 @@ return (
        </li>
        <li className="nav-itemm "> 
        
-         <a className="nav-linkk" href="aontact">Contact Us</a>
+         <a className="nav-linkk" href="contact">Contact Us</a>
        </li>
   
        </ul>
