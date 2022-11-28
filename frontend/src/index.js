@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import "bulma/css/bulma.css";
 import axios from "axios";
- 
-axios.defaults.withCredentials = true;
+import { Amplify } from 'aws-amplify';
+import awsExports from './aws-exports';
+Amplify.configure(awsExports);
+
 
 ReactDOM.render(
   <React.StrictMode>
