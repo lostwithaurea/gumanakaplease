@@ -27,14 +27,14 @@ return (
          <a className="nav-linkk" href="/">Home<span className="sr-only" /></a>
        </li>
        <li className="nav-itemm">
-                <a className="nav-linkk" href="Models">Models</a>
+                <a className="nav-linkk" href="models">Models</a>
               </li>
        <li className="nav-itemm "> 
-         <a className="nav-linkk" href="About">About</a>
+         <a className="nav-linkk" href="about">About</a>
        </li>
        <li className="nav-itemm "> 
        
-         <a className="nav-linkk" href="Contact">Contact Us</a>
+         <a className="nav-linkk" href="aontact">Contact Us</a>
        </li>
   
        </ul>
