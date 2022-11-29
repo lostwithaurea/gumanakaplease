@@ -4,6 +4,11 @@ import { PieChart, Pie, Tooltip, BarChart, XAxis, YAxis, Legend, CartesianGrid, 
 import { useNavigate } from 'react-router-dom';
 
 const Cabinet = () => {
+  const navigate = useNavigate();
+  const routeChange = () => {
+    let path = `newPath`;
+    navigate("/plumbing");
+    
   const data = [
     { name: "Plywood", price: 110000 },
     { name: "Aluminum", price: 89000 },
@@ -11,10 +16,7 @@ const Cabinet = () => {
     { name: "Labor", price: 90000 },
   ];
 
-    const navigate = useNavigate();
-    const routeChange = () => {
-      let path = `newPath`;
-      navigate("/plumbing");
+   
   
 
   return (
