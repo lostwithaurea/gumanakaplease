@@ -1,7 +1,6 @@
 import React from "react";
 import '../css/analytics.css';
 import { PieChart, Pie, Tooltip, BarChart, XAxis, YAxis, Legend, CartesianGrid, Bar,} from "recharts";
-import { useNavigate } from 'react-router-dom';
 
 const Structural5 = () => {
   const data = [
@@ -11,7 +10,10 @@ const Structural5 = () => {
     { name: "Labor", price: 210000 },
     
   ];
-
+  const navigate = useNavigate();
+  const routeChange = () => {
+    let path = `newPath`;
+    navigate("/cabinet5");
   return (
     
     <div className='banner'>
@@ -82,11 +84,11 @@ const Structural5 = () => {
           <Bar dataKey="price" fill="#43C6DB" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
-      <button className="ed-button" type="button" onClick={() => navigate(1)}> Painting Works </button>
-      <a className="ed-button" type="button" onClick={() => navigate(-1)}> Back</a>
+      <button className="ed-button" type="button" onClick={routeChange}> Painting Works </button>
+      <a className="ed-button" type="button" href="painting5"> Back</a>
     </div>
     </div>
   );
 };
-
+}
 export default Structural5;
