@@ -2,6 +2,7 @@ import React from "react";
 import '../css/analytics.css';
 import { PieChart, Pie, Tooltip, BarChart, XAxis, YAxis, Legend, CartesianGrid, Bar,} from "recharts";
 
+
 const Plumbing2 = () => {
   const data = [
     { name: "Fixtures", price: 60000 },

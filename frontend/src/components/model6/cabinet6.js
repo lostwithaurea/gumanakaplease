@@ -1,6 +1,7 @@
 import React from "react";
 import '../css/analytics.css';
 import { PieChart, Pie, Tooltip, BarChart, XAxis, YAxis, Legend, CartesianGrid, Bar,} from "recharts";
+import { useNavigate } from 'react-router-dom';
 
 const Cabinet6 = () => {
   const data = [
