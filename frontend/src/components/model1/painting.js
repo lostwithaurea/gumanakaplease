@@ -11,10 +11,7 @@ const Painting = () => {
     
   ];
 
-    const navigate = useNavigate();
-    const routeChange = () => {
-      let path = `newPath`;
-      navigate("/structural");
+
   
 
 
@@ -88,13 +85,13 @@ const Painting = () => {
           <Bar dataKey="price" fill="#43C6DB" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
-      <button className="ed-button" type="button" onClick={routeChange}> Structural Works </button>
-      <a className="ed-button" type="button" href="roofing"> Back</a>
+      <button className="ed-button" type="button" onClick={() => navigate(1)}> Structural Works </button>
+      <a className="ed-button" type="button" onClick={() => navigate(-1)}> Back</a>
     </div>
     </div>
   );
 };
-  };
+
 
 
 export default Painting;

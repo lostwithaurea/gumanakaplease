@@ -11,10 +11,7 @@ const Cabinet4 = () => {
     { name: "Labor", price: 95000 },
     
   ];
-  const navigate = useNavigate();
-  const routeChange = () => {
-    let path = `newPath`;
-    navigate("/plumbing4");
+
   return (
     
     <div className='banner'>
@@ -85,11 +82,11 @@ const Cabinet4 = () => {
           <Bar dataKey="price" fill="#43C6DB" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
-      <button className="ed-button" type="button" onClick={routeChange}> Plumbing </button>
-      <a className="ed-button" type="button" href="structural4"> Back</a>
+      <button className="ed-button" type="button" onClick={() => navigate(1)}> Plumbing </button>
+      <a className="ed-button" type="button" onClick={() => navigate(-1)}> Back</a>
     </div>
     </div>
   );
 };
-};
+
 export default Cabinet4;

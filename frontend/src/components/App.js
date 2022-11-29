@@ -97,7 +97,6 @@ function App() {
         <Route path="plumbing6" element={<Plumbing6/>}/>
         <Route path="roofing6" element={<Roofing6/>}/>
         <Route path="structural6" element={<Structural6/>}/>
-        <Route path="/roofing/painting/" element={<Painting/>} />
 
 
        
