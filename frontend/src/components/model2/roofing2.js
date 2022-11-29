@@ -9,7 +9,10 @@ const Roofing2 = () => {
     { name: "Labor", price: 50000 },
     
   ];
-
+  const navigate = useNavigate();
+  const routeChange = () => {
+    let path = `newPath`;
+    navigate("/painting2");
   return (
     
     <div className='banner'>
@@ -80,10 +83,11 @@ const Roofing2 = () => {
           <Bar dataKey="price" fill="#43C6DB" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
-      <a className="ed-button" type="button" href="painting2"> Painting Works</a>
+      <button className="ed-button" type="button" onClick={routeChange}> Painting Works </button>
     </div>
     </div>
   );
+};
 };
 
 export default Roofing2;

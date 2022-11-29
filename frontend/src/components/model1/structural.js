@@ -11,6 +11,11 @@ const Structural = () => {
     
   ];
 
+    const navigate = useNavigate();
+    const routeChange = () => {
+      let path = `newPath`;
+      navigate("/cabinet");
+
   return (
     
     <div className='banner'>
@@ -81,11 +86,12 @@ const Structural = () => {
           <Bar dataKey="price" fill="#43C6DB" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
-      <a className="ed-button" type="button" href="cabinet"> Cabinet</a>
+      <button className="ed-button" type="button" onClick={routeChange}> Painting Works </button>
       <a className="ed-button" type="button" href="painting"> Back</a>
     </div>
     </div>
   );
 };
+  };
 
 export default Structural;

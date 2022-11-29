@@ -1,6 +1,7 @@
 import React from "react";
 import '../css/analytics.css';
 import { PieChart, Pie, Tooltip, BarChart, XAxis, YAxis, Legend, CartesianGrid, Bar,} from "recharts";
+import { useNavigate } from 'react-router-dom';
 
 const Cabinet = () => {
   const data = [
@@ -8,8 +9,13 @@ const Cabinet = () => {
     { name: "Aluminum", price: 89000 },
     { name: "Doors and Jambs", price: 58000 },
     { name: "Labor", price: 90000 },
-    
   ];
+
+    const navigate = useNavigate();
+    const routeChange = () => {
+      let path = `newPath`;
+      navigate("/plumbing");
+  
 
   return (
     
@@ -81,11 +87,13 @@ const Cabinet = () => {
           <Bar dataKey="price" fill="#43C6DB" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
-      <a className="ed-button" type="button" href="plumbing"> Plumbing</a>
+      <button className="ed-button" type="button" onClick={routeChange}> Plumbing </button>
       <a className="ed-button" type="button" href="structural"> Back</a>
     </div>
     </div>
   );
-};
+        };
+      };
+
 
 export default Cabinet;
