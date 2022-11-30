@@ -82,7 +82,7 @@ const Cabinet2 = () => {
           <Bar dataKey="price" fill="#43C6DB" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
-      <button className="ed-button" type="button" href="/plumbing2"> Plumbing </button>
+      <a className="ed-button" type="button" href="/plumbing2"> Plumbing </a>
       <a className="ed-button" type="button" href="/structural2"> Back</a>
     </div>
     </div>

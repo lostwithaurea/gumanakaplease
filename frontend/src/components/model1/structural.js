@@ -82,7 +82,7 @@ const Structural = () => {
           <Bar dataKey="price" fill="#43C6DB" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
-      <a className="ed-button" type="button" href="/painting"> Cabinet </a>
+      <a className="ed-button" type="button" href="/cabinet"> Cabinet </a>
       <a className="ed-button" type="button" href="/structural"> Back</a>
     </div>
     </div>

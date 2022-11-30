@@ -81,7 +81,7 @@ const Roofing4 = () => {
           <Bar dataKey="price" fill="#43C6DB" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
-      <button className="ed-button" type="button" href="/painting4"> Painting Works </button>
+      <a className="ed-button" type="button" href="/painting4"> Painting Works </a>
     </div>
     </div>
   );
