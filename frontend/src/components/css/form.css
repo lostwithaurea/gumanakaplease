@@ -8,17 +8,17 @@
 
 }
 .input {
-    width: 50%;
-    height: 40px;
+    width: 90%;
+    height: 50px;
     padding: 7px;
     outline: none;
     border-radius: 5px;
     border: 1px solid rgb(220, 220, 220);
   }
 .textarea {
-    max-width: 50%;
-    min-width: 50%;
-    width: 70%;
+    max-width: 90%;
+    min-width: 90%;
+    width: 90%;
     max-height: 100px;
     min-height: 100px;
     padding: 7px;
@@ -40,6 +40,6 @@
     background: rgb(249, 105, 14);
     color: white;
     border: none;
-    width: 10%;
+    width: 90%;
     height: 50px;
   }

@@ -1,7 +1,7 @@
 import React from "react";
 import '../css/analytics.css';
 import { PieChart, Pie, Tooltip, BarChart, XAxis, YAxis, Legend, CartesianGrid, Bar,} from "recharts";
-import { useNavigate } from 'react-router-dom';
+
 
 const Painting = () => {
   
@@ -21,14 +21,14 @@ const Painting = () => {
           <a className="nav-linkk" href="/">Home<span className="sr-only" /></a>
         </li>
         <li className="nav-itemm">
-                 <a className="nav-linkk" href="models">Models</a>
+                 <a className="nav-linkk" href="/models">Models</a>
                </li>
         <li className="nav-itemm "> 
-          <a className="nav-linkk" href="about">About</a>
+          <a className="nav-linkk" href="/about">About</a>
         </li>
        
         <li className="nav-itemm "> 
-          <a className="nav-linkk" href="contact">Contact Us</a>
+          <a className="nav-linkk" href="/contact">Contact Us</a>
         </li>
      
         </ul>
@@ -36,7 +36,7 @@ const Painting = () => {
         </div>
 
     <div style={{ textAlign: "center" }}>
-    <div style={{fontSize:50, color: "black", fontFamily: "sans-serif"}}>
+    <div style={{fontSize:50, color: "white", fontFamily: "sans-serif"}}>
       <h1>PAINTING WORKS</h1>
       </div>
       <div className="App">

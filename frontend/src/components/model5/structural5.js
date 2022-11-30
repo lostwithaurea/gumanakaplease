@@ -20,14 +20,14 @@ const Structural5 = () => {
           <a className="nav-linkk" href="/">Home<span className="sr-only" /></a>
         </li>
         <li className="nav-itemm">
-                 <a className="nav-linkk" href="models">Models</a>
+                 <a className="nav-linkk" href="/models">Models</a>
                </li>
         <li className="nav-itemm "> 
-          <a className="nav-linkk" href="about">About</a>
+          <a className="nav-linkk" href="/about">About</a>
         </li>
   
         <li className="nav-itemm "> 
-          <a className="nav-linkk" href="contact">Contact Us</a>
+          <a className="nav-linkk" href="/contact">Contact Us</a>
         </li>
       
         </ul>
@@ -80,7 +80,7 @@ const Structural5 = () => {
           <Bar dataKey="price" fill="#43C6DB" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
-      <button className="ed-button" type="button" href="/cabinet5"> Cabinet </button>
+      <a className="ed-button" type="button" href="/cabinet5"> Cabinet </a>
       <a className="ed-button" type="button" href="/painting5"> Back</a>
     </div>
     </div>
