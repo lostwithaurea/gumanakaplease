@@ -2,6 +2,7 @@ import React from 'react';
 import '../App';
 import './css/product.css';
 import './css/bootstrap.min.css';
+import './models2'
 import { useNavigate } from 'react-router-dom';
 
 
