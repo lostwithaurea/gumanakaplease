@@ -44,7 +44,6 @@ import Painting6 from "./components/model6/painting6";
 import Plumbing6 from "./components/model6/plumbing6";
 import Roofing6 from "./components/model6/roofing6";
 import Structural6 from "./components/model6/structural6";
-import '../public/bg.jpg';
 import './components/css/style.css';
 import './components/css/style2.css';
 import './components/css/model.css';

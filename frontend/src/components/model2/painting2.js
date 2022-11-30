@@ -1,7 +1,6 @@
 import React from "react";
 import '../css/analytics.css';
 import { PieChart, Pie, Tooltip, BarChart, XAxis, YAxis, Legend, CartesianGrid, Bar,} from "recharts";
-import { useNavigate } from 'react-router-dom';
 
 const Painting2 = () => {
   const data = [
@@ -82,7 +81,7 @@ const Painting2 = () => {
           <Bar dataKey="price" fill="#43C6DB" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
-      <button className="ed-button" type="button" onClick={routeChange}> Structural Works </button>
+      <a className="ed-button" type="button" href="/structural2"> Structural Works </a>
       <a className="ed-button" type="button" href="roofing2"> Back</a>
     </div>
     </div>

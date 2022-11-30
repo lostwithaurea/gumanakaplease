@@ -10,10 +10,6 @@ const Structural5 = () => {
     { name: "Labor", price: 210000 },
     
   ];
-  const navigate = useNavigate();
-  const routeChange = () => {
-    let path = `newPath`;
-    navigate("/cabinet5");
   return (
     
     <div className='banner'>
@@ -84,11 +80,11 @@ const Structural5 = () => {
           <Bar dataKey="price" fill="#43C6DB" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
-      <button className="ed-button" type="button" onClick={routeChange}> Painting Works </button>
+      <button className="ed-button" type="button" href="painting5"> Painting Works </button>
       <a className="ed-button" type="button" href="painting5"> Back</a>
     </div>
     </div>
   );
 };
-}
+
 export default Structural5;
