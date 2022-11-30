@@ -38,9 +38,9 @@ function Models2() {
           <img src={require('./img/model2.png')} />
           <button className="ed-button" type="button" onClick={routeChange}> Edit</button>
           <br></br>
-          <a className="ed-button" type="button" href="models3"> Next</a>
-          <a className="ed-button" type="button" href="Models"> Back</a>
-          <a className="ed-button" type="button" href="roofing2"> Materials</a>
+          <a className="ed-button" type="button" href="/models3"> Next</a>
+          <a className="ed-button" type="button" href="/Models"> Back</a>
+          <a className="ed-button" type="button" href="/roofing2"> Materials</a>
           <div class="description">
             <h6 class="archi">Architect: Arvin G. Alonzo</h6>
           

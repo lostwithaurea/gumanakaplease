@@ -29,14 +29,14 @@ const Cabinet = () => {
           <a className="nav-linkk" href="/">Home<span className="sr-only" /></a>
         </li>
         <li className="nav-itemm">
-                 <a className="nav-linkk" href="models">Models</a>
+                 <a className="nav-linkk" href="/models">Models</a>
                </li>
         <li className="nav-itemm "> 
-          <a className="nav-linkk" href="about">About</a>
+          <a className="nav-linkk" href="/about">About</a>
         </li>
     
         <li className="nav-itemm "> 
-          <a className="nav-linkk" href="contact">Contact Us</a>
+          <a className="nav-linkk" href="/contact">Contact Us</a>
         </li>
      
         </ul>
@@ -90,7 +90,7 @@ const Cabinet = () => {
         </BarChart>
       </div>
       <button className="ed-button" type="button" onClick={routeChange}> Plumbing </button>
-      <a className="ed-button" type="button" href="structural"> Back</a>
+      <a className="ed-button" type="button" href="/structural"> Back</a>
     </div>
     </div>
   );

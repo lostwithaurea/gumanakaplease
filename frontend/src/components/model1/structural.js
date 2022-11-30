@@ -88,7 +88,7 @@ const Structural = () => {
         </BarChart>
       </div>
       <button className="ed-button" type="button" onClick={routeChange}> Painting Works </button>
-      <a className="ed-button" type="button" href="painting"> Back</a>
+      <a className="ed-button" type="button" href="painting"> /Back</a>
     </div>
     </div>
   );

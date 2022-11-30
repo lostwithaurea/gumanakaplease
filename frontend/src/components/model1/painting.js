@@ -89,7 +89,7 @@ const Painting = () => {
         </BarChart>
       </div>
       <button className="ed-button" type="button" onClick={routeChange}> Structural Works </button>
-      <a className="ed-button" type="button" href="roofing"> Back</a>
+      <a className="ed-button" type="button" href="/roofing"> Back</a>
     </div>
     </div>
   );

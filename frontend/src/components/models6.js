@@ -39,7 +39,7 @@ function Models6() {
           <button className="ed-button" type="button" onClick={routeChange}> Edit</button>
           <br></br>
           <a className="ed-button" type="button" href="/"> Back</a>
-          <a className="ed-button" type="button" href="roofing6"> Materials</a>
+          <a className="ed-button" type="button" href="/roofing6"> Materials</a>
 
           <div class="description">
             <h6 class="archi">Architect: Arvin G. Alonzo</h6>
