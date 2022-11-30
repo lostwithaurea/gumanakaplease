@@ -18,13 +18,13 @@ class Home extends React.Component{
                 <a className="nav-linkk" href="/">Home<span className="sr-only" /></a>
               </li>
               <li className="nav-itemm">
-                <a className="nav-linkk" href="models">Models</a>
+                <a className="nav-linkk" href="/models">Models</a>
               </li>
               <li className="nav-itemm "> 
-                <a className="nav-linkk" href="about">About</a>
+                <a className="nav-linkk" href="/about">About</a>
               </li>
               <li className="nav-itemm "> 
-                <a className="nav-linkk" href="contact">Contact Us</a>
+                <a className="nav-linkk" href="/contact">Contact Us</a>
               </li>
          
             </ul>

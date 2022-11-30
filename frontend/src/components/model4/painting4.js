@@ -10,10 +10,7 @@ const Painting4 = () => {
     { name: "Labor", price: 80000 },
     
   ];
-  const navigate = useNavigate();
-  const routeChange = () => {
-    let path = `newPath`;
-    navigate("/structural4");
+
   return (
     
     <div className='banner'>
@@ -39,7 +36,7 @@ const Painting4 = () => {
         </div>
 
     <div style={{ textAlign: "center" }}>
-    <div style={{fontSize:50, color: "black", fontFamily: "sans-serif"}}>
+    <div style={{fontSize:50, color: "white", fontFamily: "sans-serif"}}>
       <h1>PAINTING WORKS</h1>
       </div>
       <div className="App">
@@ -84,11 +81,11 @@ const Painting4 = () => {
           <Bar dataKey="price" fill="#43C6DB" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
-      <button className="ed-button" type="button" onClick={routeChange}> Structural Works </button>
-      <a className="ed-button" type="button" href="roofing4"> Back</a>
+      <button className="ed-button" type="button" href="structural4"> Structural Works </button>
+      <a className="ed-button" type="button" href="/roofing4"> Back</a>
     </div>
     </div>
   );
 };
-};
+
 export default Painting4;

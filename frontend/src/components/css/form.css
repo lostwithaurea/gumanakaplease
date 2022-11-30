@@ -16,8 +16,8 @@
     border: 1px solid rgb(220, 220, 220);
   }
 .textarea {
-    max-width: 90%;
-    min-width: 90%;
+    max-width: 50%;
+    min-width: 50%;
     width: 70%;
     max-height: 100px;
     min-height: 100px;
@@ -28,7 +28,7 @@
 
   }
   label {
-    color: black;
+    color: rgb(255, 255, 255);
   }
 .label {
     margin-top: 1rem;

@@ -34,7 +34,7 @@ const Roofing5 = () => {
         </div>
 
     <div style={{ textAlign: "center" }}>
-      <div style={{fontSize:50, color: "black", fontFamily: "sans-serif"}}>
+    <div style={{fontSize:50, color: "white", fontFamily: "sans-serif"}}>
       <h1>ROOFING</h1>
     </div>
       <div className="App">
@@ -79,7 +79,7 @@ const Roofing5 = () => {
           <Bar dataKey="price" fill="#43C6DB" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
-      <button className="ed-button" type="button" href="/painting6"> Painting Works </button>
+      <button className="ed-button" type="button" href="/painting5"> Painting Works </button>
     </div>
     </div>
   );

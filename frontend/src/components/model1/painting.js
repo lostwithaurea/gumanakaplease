@@ -4,19 +4,12 @@ import { PieChart, Pie, Tooltip, BarChart, XAxis, YAxis, Legend, CartesianGrid, 
 import { useNavigate } from 'react-router-dom';
 
 const Painting = () => {
+  
   const data = [
     { name: "Elastomeric Paint", price: 90000 },
     { name: "Woodstain Barnish", price: 70000 },
     { name: "Labor", price: 50000 },
-    
   ];
-
-    const navigate = useNavigate();
-    const routeChange = () => {
-      let path = `newPath`;
-      navigate("/structural");
-  
-
 
   return (
     
@@ -88,13 +81,13 @@ const Painting = () => {
           <Bar dataKey="price" fill="#43C6DB" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
-      <button className="ed-button" type="button" onClick={routeChange}> Structural Works </button>
+      <a className="ed-button" type="button" href="/structural"> Structural Works </a>
       <a className="ed-button" type="button" href="/roofing"> Back</a>
     </div>
     </div>
   );
 };
-  };
+
 
 
 export default Painting;

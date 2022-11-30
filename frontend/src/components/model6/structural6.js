@@ -11,10 +11,7 @@ const Structural6 = () => {
     { name: "Labor", price: 300000 },
     
   ];
-  const navigate = useNavigate();
-  const routeChange = () => {
-    let path = `newPath`;
-    navigate("/cabinet5");
+
   return (
     
     <div className='banner'>
@@ -40,7 +37,7 @@ const Structural6 = () => {
         </div>
 
     <div style={{ textAlign: "center" }}>
-    <div style={{fontSize:50, color: "black", fontFamily: "sans-serif"}}>
+    <div style={{fontSize:50, color: "white", fontFamily: "sans-serif"}}>
       <h1>STRUCTURAL WORKS</h1>
       </div>
       <div className="App">
@@ -85,11 +82,11 @@ const Structural6 = () => {
           <Bar dataKey="price" fill="#43C6DB" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
-      <button className="ed-button" type="button" onClick={routeChange}> Painting Works </button>
-      <a className="ed-button" type="button" href="painting6"> Back</a>
+      <button className="ed-button" type="button" href="/cabinet6"> Cabinet </button>
+      <a className="ed-button" type="button" href="/painting6"> Back</a>
     </div>
     </div>
   );
 };
-};
+
 export default Structural6;

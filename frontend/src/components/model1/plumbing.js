@@ -38,7 +38,7 @@ const Plumbing = () => {
         </div>
 
     <div style={{ textAlign: "center" }}>
-    <div style={{fontSize:50, color: "black", fontFamily: "sans-serif"}}>
+    <div style={{fontSize:50, color: "white", fontFamily: "sans-serif"}}>
       <h1>PLUMBING</h1>
       </div>
       <div className="App">

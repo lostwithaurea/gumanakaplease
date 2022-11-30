@@ -1,13 +1,10 @@
 import React from "react";
 import '../css/analytics.css';
 import { PieChart, Pie, Tooltip, BarChart, XAxis, YAxis, Legend, CartesianGrid, Bar,} from "recharts";
-import { useNavigate } from 'react-router-dom';
+
 
 const Cabinet = () => {
-  const navigate = useNavigate();
-  const routeChange = () => {
-    let path = `newPath`;
-    navigate("/plumbing");
+
     
   const data = [
     { name: "Plywood", price: 110000 },
@@ -44,7 +41,7 @@ const Cabinet = () => {
         </div>
 
     <div style={{ textAlign: "center" }}>
-    <div style={{fontSize:50, color: "black", fontFamily: "sans-serif"}}>
+    <div style={{fontSize:50, color: "white", fontFamily: "sans-serif"}}>
       <h1>CABINET</h1>
       </div>
       <div className="App">
@@ -89,13 +86,13 @@ const Cabinet = () => {
           <Bar dataKey="price" fill="#43C6DB" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
-      <button className="ed-button" type="button" onClick={routeChange}> Plumbing </button>
+      <button className="ed-button" type="button" href="/plumbing"> Plumbing </button>
       <a className="ed-button" type="button" href="/structural"> Back</a>
     </div>
     </div>
   );
         };
-      };
+      
 
 
 export default Cabinet;

@@ -11,10 +11,7 @@ const Cabinet2 = () => {
     { name: "Labor", price: 80000 },
     
   ];
-  const navigate = useNavigate();
-  const routeChange = () => {
-    let path = `newPath`;
-    navigate("/plumbing3");
+
   return (
     
     <div className='banner'>
@@ -40,7 +37,7 @@ const Cabinet2 = () => {
         </div>
 
     <div style={{ textAlign: "center" }}>
-    <div style={{fontSize:50, color: "black", fontFamily: "sans-serif"}}>
+    <div style={{fontSize:50, color: "white", fontFamily: "sans-serif"}}>
       <h1>CABINET</h1>
       </div>
       <div className="App">
@@ -85,12 +82,12 @@ const Cabinet2 = () => {
           <Bar dataKey="price" fill="#43C6DB" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
-      <button className="ed-button" type="button" onClick={routeChange}> Plumbing </button>
-      <a className="ed-button" type="button" href="structural3"> Back</a>
+      <button className="ed-button" type="button" href="/plumbing3"> Plumbing </button>
+      <a className="ed-button" type="button" href="/structural3"> Back</a>
     </div>
     </div>
   );
 };
-};
+
 
 export default Cabinet2;

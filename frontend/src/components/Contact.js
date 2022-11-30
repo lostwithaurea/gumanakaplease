@@ -1,7 +1,7 @@
 import '../App';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import './css/style.css';
+import './css/form.css';
 
 
 export const Contact = () => {
@@ -27,14 +27,14 @@ return (
          <a className="nav-linkk" href="/">Home<span className="sr-only" /></a>
        </li>
        <li className="nav-itemm">
-                <a className="nav-linkk" href="models">Models</a>
+                <a className="nav-linkk" href="/models">Models</a>
               </li>
        <li className="nav-itemm "> 
-         <a className="nav-linkk" href="about">About</a>
+         <a className="nav-linkk" href="/about">About</a>
        </li>
        <li className="nav-itemm "> 
        
-         <a className="nav-linkk" href="contact">Contact Us</a>
+         <a className="nav-linkk" href="/contact">Contact Us</a>
        </li>
   
        </ul>
