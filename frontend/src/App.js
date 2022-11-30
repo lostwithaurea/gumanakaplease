@@ -50,6 +50,7 @@ import '../public/bg.jpg';
 function App() {
   return (
     
+    
 
 
     
@@ -102,10 +103,11 @@ function App() {
         <Route path="/structural6" element={<Structural6/>}/>
 
 
-       
+        style={{backgroundImage : 'url(' + require('../public/bg.jpg')+ ')'}}   
       </Routes>
     </Router>
+    
   );
 }
- 
+
 export default App;
