@@ -10,7 +10,6 @@ import Models4 from "./components/models4";
 import Models5 from "./components/models5";
 import Model3 from "./components/models/model3"
 import Model2 from "./components/models/model2";
-import './components/css/analytics.css'
 import Roofing from "./components/model1/roofing";
 import Painting from "./components/model1/painting";
 import Structural from "./components/model1/structural";
@@ -46,14 +45,14 @@ import Plumbing6 from "./components/model6/plumbing6";
 import Roofing6 from "./components/model6/roofing6";
 import Structural6 from "./components/model6/structural6";
 import '../public/bg.jpg';
+import './components/css/style.css';
+import './components/css/style2.css';
+import './components/css/model.css';
+import './components/css/product.css';
+
 
 function App() {
   return (
-    
-    
-
-
-    
     <Router>
       <Routes>
         <Route path="/" element={<Home/>}/>
@@ -103,10 +102,8 @@ function App() {
         <Route path="/structural6" element={<Structural6/>}/>
 
 
-        style={{backgroundImage : 'url(' + require('../public/bg.jpg')+ ')'}}   
       </Routes>
     </Router>
-    
   );
 }
 
