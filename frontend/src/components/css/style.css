@@ -21,7 +21,7 @@ header{
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url("./bg.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url(../../../public/bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -335,7 +335,7 @@ header{
     .banner{
         width: 100%;
         height: auto;
-        background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url(./bg.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url(../../../public/bg.jpg);
         background-size: cover;
         background-position: center;
     }

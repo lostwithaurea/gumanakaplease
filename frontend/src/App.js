@@ -45,10 +45,13 @@ import Painting6 from "./components/model6/painting6";
 import Plumbing6 from "./components/model6/plumbing6";
 import Roofing6 from "./components/model6/roofing6";
 import Structural6 from "./components/model6/structural6";
-
+import '../public/bg.jpg';
 
 function App() {
   return (
+    
+
+
     
     <Router>
       <Routes>
