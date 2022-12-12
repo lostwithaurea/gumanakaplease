@@ -576,14 +576,14 @@ export function Model(props) {
         <mesh geometry={nodes.Mesh_54.geometry} material={materials['interior']}material-color={props.customColors.interior} />
         <mesh geometry={nodes.Mesh_55.geometry} material={materials['interior']}material-color={props.customColors.interior} />
         <mesh geometry={nodes.Mesh_56.geometry} material={materials['interior']}material-color={props.customColors.interior} />
-        <mesh geometry={nodes.____.geometry} material={materials['curtain']} material-color={props.customColors.curtain}/>
-        <mesh geometry={nodes.____001.geometry} material={materials['curtain']} material-color={props.customColors.curtain}/>
+        <mesh geometry={nodes.____.geometry} material={materials['curtain']} />
+        <mesh geometry={nodes.____001.geometry} material={materials['curtain']} />
         <mesh geometry={nodes.Mesh_599.geometry} material={materials.Material3} />
         <mesh geometry={nodes.Mesh_599_1.geometry} material={materials._11wire_22022022} />
         <mesh geometry={nodes['_________5#1'].geometry} material={materials.Material3} />
         <mesh geometry={nodes.Mesh_602.geometry} material={materials['default material']} />
-        <mesh geometry={nodes.____002.geometry} material={materials['curtain']} material-color={props.customColors.curtain}/>
-        <mesh geometry={nodes.____003.geometry} material={materials['curtain']} material-color={props.customColors.curtain}/>
+        <mesh geometry={nodes.____002.geometry} material={materials['curtain']} />
+        <mesh geometry={nodes.____003.geometry} material={materials['curtain']} />
         <mesh geometry={nodes.Mesh_604.geometry} material={materials.Material3} />
         <mesh geometry={nodes.Mesh_604_1.geometry} material={materials._11wire_22022022} />
         <mesh geometry={nodes['_________5#1001'].geometry} material={materials.Material3} />
@@ -812,8 +812,8 @@ export function Model(props) {
         <mesh geometry={nodes.Mesh_810.geometry} material={materials['WINDOW FRAME 1']} />
         <mesh geometry={nodes.Mesh_811.geometry} material={materials['WINDOW FRAME 1']} />
         <mesh geometry={nodes.Mesh_787.geometry} material={materials['WINDOW FRAME 1']} />
-        <mesh geometry={nodes.____004.geometry} material={materials['curtain']} material-color={props.customColors.curtain}/>
-        <mesh geometry={nodes.____005.geometry} material={materials['curtain']} material-color={props.customColors.curtain}/>
+        <mesh geometry={nodes.____004.geometry} material={materials['curtain']} />
+        <mesh geometry={nodes.____005.geometry} material={materials['curtain']} />
         <mesh geometry={nodes.Mesh_212.geometry} material={materials['CLEAR GLASS']} />
         <mesh geometry={nodes.Mesh_212_1.geometry} material={materials['WINDOW FRAME 1']} />
         <mesh geometry={nodes['Component#38'].geometry} material={materials['default material']}>
@@ -974,7 +974,6 @@ export function Model(props) {
 
 function Model2() {
   const [interior,setInterior] = useState("ffffff")
-  const [curtain,setCurtain] = useState("ffffff")
   const [tile,setTile] = useState("ffffff")
   const [roof,setRoof] = useState("#36454F")
   return (
@@ -1008,7 +1007,7 @@ function Model2() {
                   <Suspense fallback={null}>
                     <ambientLight />
                     <spotLight intensity={0.9} angle={0.1} penumbra={1} position={[10,15,10]} castShadow/>
-                    <Model customColors={{interior:interior,  curtain:curtain, tile:tile, roof:roof}}/>
+                    <Model customColors={{interior:interior, tile:tile, roof:roof}}/>
                     <OrbitControls enablePan={true} enableZoom={true} enableRotate={true}/>
 
                   </Suspense>
@@ -1020,16 +1019,11 @@ function Model2() {
                       <input type="color" id="interior" name="interior"
                              value={interior} 
                              onChange={(e)=> setInterior(e.target.value)}/>
-                      <label for="body">Paint</label>
+                      <label for="body">Wall</label>
                     </div>
 
 
-                  <div>
-                      <input type="color" id="curtain" name="curtain"
-                              value={curtain}
-                              onChange={(e)=> setCurtain(e.target.value)}/>
-                      <label for="body">Curtain</label>
-                  </div>
+               
                   <div>
                       <input type="color" id="tile" name="tile"
                               value={tile}

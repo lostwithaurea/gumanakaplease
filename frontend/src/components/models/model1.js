@@ -1852,20 +1852,20 @@ export function Model(props) {
         </mesh>
         <mesh geometry={nodes.Mesh_158.geometry} material={materials.Color_000} />
         <mesh geometry={nodes.Mesh_228.geometry} material={materials['Color M04']} />
-        <mesh geometry={nodes.Mesh_229.geometry} material={materials['curtain']} material-color={props.customColors.curtain}/>
+        <mesh geometry={nodes.Mesh_229.geometry} material={materials['curtain']} />
         <mesh geometry={nodes.Mesh_230.geometry} material={materials['Color M04']} />
         <mesh geometry={nodes.Mesh_231.geometry} material={materials['Color M04']} />
-        <mesh geometry={nodes.Mesh_232.geometry} material={materials['curtain']} material-color={props.customColors.curtain}/>
+        <mesh geometry={nodes.Mesh_232.geometry} material={materials['curtain']} />
         <mesh geometry={nodes.Mesh_233.geometry} material={materials['Color M04']} />
-        <mesh geometry={nodes.Mesh_234.geometry} material={materials['curtain']} material-color={props.customColors.curtain}/>
+        <mesh geometry={nodes.Mesh_234.geometry} material={materials['curtain']} />
         <mesh geometry={nodes.Mesh_235.geometry} material={materials['Color M04']} />
         <mesh geometry={nodes.Mesh_236.geometry} material={materials['Color M04']} />
-        <mesh geometry={nodes.Mesh_237.geometry} material={materials['curtain']} material-color={props.customColors.curtain}/>
+        <mesh geometry={nodes.Mesh_237.geometry} material={materials['curtain']} />
         <mesh geometry={nodes.Mesh_238.geometry} material={materials['Color M04']} />
-        <mesh geometry={nodes.Mesh_239.geometry} material={materials['curtain']} material-color={props.customColors.curtain}/>
+        <mesh geometry={nodes.Mesh_239.geometry} material={materials['curtain']} />
         <mesh geometry={nodes.Mesh_240.geometry} material={materials['Color M04']} />
         <mesh geometry={nodes.Mesh_241.geometry} material={materials['Color M04']} />
-        <mesh geometry={nodes.Mesh_242.geometry} material={materials['curtain']} material-color={props.customColors.curtain}/>
+        <mesh geometry={nodes.Mesh_242.geometry} material={materials['curtain']} />
         <mesh geometry={nodes.Mesh_246.geometry} material={materials['0128_White']} />
         <mesh geometry={nodes.Mesh_247_1.geometry} material={materials['[0131_Silver]1']} />
         <mesh geometry={nodes.Mesh_247_2.geometry} material={materials.Material90} />
@@ -2597,7 +2597,7 @@ export function Model(props) {
 function Model1() {
   const [interior,setInterior] = useState("ffffff")
   const [Fence,setFence] = useState("ffffff")
-  const [curtain,setCurtain] = useState("ffffff")
+  
   const [tile,setTile] = useState("ffffff")
   const [roof,setRoof] = useState("#36454F")
   return (
@@ -2631,7 +2631,7 @@ function Model1() {
                   <Suspense fallback={null}>
                     <ambientLight />
                     <spotLight intensity={0.9} angle={0.1} penumbra={1} position={[10,15,10]} castShadow/>
-                    <Model customColors={{interior:interior, Fence:Fence, curtain:curtain, tile:tile, roof:roof}}/>
+                    <Model customColors={{interior:interior, Fence:Fence, tile:tile, roof:roof}}/>
                     <OrbitControls enablePan={true} enableZoom={true} enableRotate={true}/>
 
                   </Suspense>
@@ -2643,7 +2643,7 @@ function Model1() {
                       <input type="color" id="interior" name="interior"
                              value={interior} 
                              onChange={(e)=> setInterior(e.target.value)}/>
-                      <label for="body">Paint</label>
+                      <label for="body">Wall</label>
                     </div>
 
                   <div>
@@ -2651,12 +2651,6 @@ function Model1() {
                               value={Fence} 
                               onChange={(e)=> setFence(e.target.value)}/>
                       <label for="body">Fence</label>
-                  </div>
-                  <div>
-                      <input type="color" id="curtain" name="curtain"
-                              value={curtain}
-                              onChange={(e)=> setCurtain(e.target.value)}/>
-                      <label for="body">Curtain</label>
                   </div>
                   <div>
                       <input type="color" id="tile" name="tile"

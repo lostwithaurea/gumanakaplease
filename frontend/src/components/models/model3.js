@@ -2215,7 +2215,6 @@ export function Model(props) {
   function Model3() {
     const [interior,setInterior] = useState("ffffff")
     const [Fence,setFence] = useState("ffffff")
-    const [curtain,setCurtain] = useState("ffffff")
     const [tile,setTile] = useState("ffffff")
     const [roof,setRoof] = useState("#36454F")
     return (
@@ -2261,7 +2260,7 @@ export function Model(props) {
                         <input type="color" id="interior" name="interior"
                                value={interior} 
                                onChange={(e)=> setInterior(e.target.value)}/>
-                        <label for="body">Paint</label>
+                        <label for="body">Wall</label>
                       </div>
   
                     <div>

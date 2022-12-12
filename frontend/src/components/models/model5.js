@@ -309,7 +309,6 @@ export function Model(props) {
   function Model5() {
     const [interior,setInterior] = useState("ffffff")
     const [Fence,setFence] = useState("ffffff")
-    const [curtain,setCurtain] = useState("ffffff")
     const [tile,setTile] = useState("ffffff")
     const [roof,setRoof] = useState("#36454F")
     return (
@@ -343,7 +342,7 @@ export function Model(props) {
                     <Suspense fallback={null}>
                       <ambientLight />
                       <spotLight intensity={0.9} angle={0.1} penumbra={1} position={[10,15,10]} castShadow/>
-                      <Model customColors={{interior:interior, Fence:Fence, curtain:curtain, tile:tile, roof:roof}}/>
+                      <Model customColors={{interior:interior, Fence:Fence, tile:tile, roof:roof}}/>
                       <OrbitControls enablePan={true} enableZoom={true} enableRotate={true}/>
   
                     </Suspense>
@@ -355,7 +354,7 @@ export function Model(props) {
                         <input type="color" id="interior" name="interior"
                                value={interior} 
                                onChange={(e)=> setInterior(e.target.value)}/>
-                        <label for="body">Paint</label>
+                        <label for="body">Wall</label>
                       </div>
   
                     <div>
