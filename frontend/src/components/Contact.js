@@ -42,7 +42,6 @@ return (
        </div>
   
   <center>
-    <div class="contact">
     <form ref={form} onSubmit={sendEmail}>
     <labels>Name</labels>
     <input type="text" name="user_name" />
@@ -50,9 +49,9 @@ return (
     <input type="email" name="user_email" />
     <labels>Message</labels>
     <textarea name="message" />
+    <br></br>
     <input type="submit" value="Send" />
   </form>
-  </div>
   </center>
    
   </div>
