@@ -10,7 +10,7 @@
 .description{
     width: 40%;
     font-family: var(--body-font);
-    color: #000000;
+    color: #effbff;
     float: right;
     text-align: justify;
     float: left;
@@ -21,4 +21,7 @@
     width: 670px;
     margin-left: auto;
     margin-right: auto;
+}
+.wrapper{
+    color:black
 }

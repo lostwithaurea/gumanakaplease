@@ -49,6 +49,7 @@ return (
     <input type="email" name="user_email" />
     <label>Message</label>
     <textarea name="message" />
+    <br></br>
     <input type="submit" value="Send" />
   </form>
   </center>
