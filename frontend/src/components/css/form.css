@@ -8,6 +8,7 @@
 
 }
 input {
+    margin-top: 10px;
     width: 30%;
     height: 50px;
     padding: 7px;
@@ -23,9 +24,10 @@ textarea {
   border-radius: 5px;
   border: 1px solid rgb(220, 220, 220);
   }
-  label .labels {
+  label {
     color: rgb(255, 255, 255);
+  }
+.label {
     margin-top: 1rem;
   }
-
 
