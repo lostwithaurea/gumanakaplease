@@ -25,7 +25,6 @@ function Models2() {
           <li className="nav-itemm "> 
             <a className="nav-linkk" href="/about">About</a>
           </li>
-
           <li className="nav-itemm "> 
             <a className="nav-linkk" href="/contact">Contact Us</a>
           </li>
@@ -34,13 +33,14 @@ function Models2() {
         
           </div>
 
-          <div className='photos2'>
-          <img src={require('./img/model2.png')} />
+          <div className='photos'>
+          <img src={require('./img/model1.jpg')} />
           <button className="ed-button" type="button" onClick={routeChange}> Edit</button>
           <br></br>
           <a className="ed-button" type="button" href="/models3"> Next</a>
-          <a className="ed-button" type="button" href="/Models"> Back</a>
-          <a className="ed-button" type="button" href="/roofing2"> Materials</a>
+          <a className="ed-button" type="button" href="/"> Back</a>
+          <a className="ed-button" type="button" href="/roofing"> Materials</a>
+
           <div class="description">
             <h6 class="archi">Architect: Arvin G. Alonzo</h6>
           

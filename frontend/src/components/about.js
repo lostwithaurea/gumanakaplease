@@ -30,7 +30,7 @@ function About() {
         <center>
           <div className="about">
           <h1>Keep Moving Forward!</h1>
-          <p>At Make it Home, we believe everyone deserves to have a wonderful desgin when ti comes to their houses.</p>
+          <p>At Make it Home, we believe everyone deserves to have a wonderful designs when it comes to their houses.</p>
           <p>Innovation and simplicity makes us very happy. We really want to remove any home owner problems when it comes to their house designs.</p>
           <p>We're excited excited to help you on your journey. Let's have a Happy Home Together!</p>
           <p>We are a team consisting of a students from Batangas State University that has a passion for making everyone's life easier.</p>
