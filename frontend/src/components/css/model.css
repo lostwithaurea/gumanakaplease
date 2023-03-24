@@ -18,11 +18,6 @@
     border-radius: 13px;
     background-color: rgb(70, 69, 69);
     color: white;
-
-}
-.input{
-    height: 34px;
-    width: 100%;
 }
 
 .product-canvas {
@@ -35,6 +30,8 @@
 }
 
 .colors {
+  height: 34px;
+  width: 100%;
   display:flex;
   flex-direction:row;
 }
