@@ -16,8 +16,6 @@
     height: 70vh;
     width: 80vw;
     border-radius: 13px;
-    background-color: rgb(70, 69, 69);
-    color: white;
 
 }
 
@@ -34,16 +32,12 @@
   display:flex;
   flex-direction:row;
 }
-.colors .color{
-    height:34px;
-    width: 100%
-}
 
 .colors div {
     padding:8px;
 }
 
-.label {
+label {
     color: black;
 }
 
