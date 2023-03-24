@@ -44,11 +44,11 @@ return (
   <center>
     <div class="contact">
     <form ref={form} onSubmit={sendEmail}>
-    <label>Name</label>
+    <labels>Name</labels>
     <input type="text" name="user_name" />
-    <label>Email</label>
+    <labels>Email</labels>
     <input type="email" name="user_email" />
-    <label>Message</label>
+    <labels>Message</labels>
     <textarea name="message" />
     <input type="submit" value="Send" />
   </form>
