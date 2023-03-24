@@ -23,10 +23,10 @@ textarea {
   border-radius: 5px;
   border: 1px solid rgb(220, 220, 220);
   }
-  .text {
+label {
     color: rgb(255, 255, 255);
   }
-.text {
+.label {
     margin-top: 1rem;
   }
 
