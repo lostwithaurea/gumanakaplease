@@ -31,6 +31,8 @@
 .colors {
   display:flex;
   flex-direction:row;
+  color: black;
+  width: 15px;
 }
 
 .colors div {
