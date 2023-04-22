@@ -15,6 +15,30 @@ input {
     border-radius: 5px;
     border: 1px solid rgb(220, 220, 220);
   }
+input .text{
+  width: 30%;
+  height: 50px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+}
+input .email{
+  width: 30%;
+  height: 50px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+}
+input .submit{
+  width: 30%;
+  height: 50px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+}
 textarea {
   width: 40%;
   height: 80px;
