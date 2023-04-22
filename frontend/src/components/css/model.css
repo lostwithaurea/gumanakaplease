@@ -20,8 +20,8 @@
 }
 
 .product-canvas {
-    width: 80vw;
-    height: 70vh;
+    width: 30vw;
+    height: 50vh;
     background:rgb(46, 46, 46);
     border-radius: 0px;
     margin-bottom:20px;
@@ -41,5 +41,6 @@
 
 label {
     color: rgb(0, 0, 0);
+    font-size: 15px;
 }
 
