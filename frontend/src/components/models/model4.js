@@ -1,4 +1,5 @@
 import '../css/model.css';
+import "../css/model.sass";
 import React, {Suspense, useRef, useState} from 'react';
 import { Canvas } from '@react-three/fiber';
 import {OrbitControls, useGLTF} from "@react-three/drei";
