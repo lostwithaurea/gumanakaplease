@@ -33,12 +33,10 @@
   flex-direction:row;
   width: 15px;
 }
-.colors .color{
-    width: 15px;
-}
 
 .colors div {
     padding:8px;
+    color: black;
 }
 
 label {
