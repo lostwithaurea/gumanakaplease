@@ -13,11 +13,14 @@
 }
 
 .card {
-    height: 70vh;
-    width: 80vw;
-    border-radius: 13px;
-
+    background-color: #262323;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5em 1em -0.125em hsla(0,0%,4%,.1), 0 0 0 1px hsla(0,0%,4%,.02);
+    color: #ffffff;
+    max-width: 100%;
+    position: relative;
 }
+
 
 .product-canvas {
     width: 80vw;
@@ -38,6 +41,6 @@
 }
 
 label {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
