@@ -9,24 +9,25 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #5dafb8;
+    color:white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .card {
-
-    background-color: #fff;
-    border-radius: 0.25rem;
-    box-shadow: 0 0.5em 1em -0.125em hsla(0,0%,4%,.1), 0 0 0 1px hsla(0,0%,4%,.02);
-    color: #ffc1c1;
-    max-width: 100%;
-    position: relative;
-
+    height: 50vh;
+    border-radius: 13px;
+    box-shadow: 20px 40px 33px rgba(65, 64, 64, 0.3);
+    padding: 2rem;
+    width: 35vw;
+    background-color:  #011416;
 }
 
 .product-canvas {
-    width: 80vw;
-    height: 70vh;
-    background:rgb(46, 46, 46);
+    width: 35vw;
+    height: 38vh;
+    background:white;
+    box-shadow:  10px 15px 15px 6px #3891b4;
     border-radius: 0px;
     margin-bottom:20px;
  
