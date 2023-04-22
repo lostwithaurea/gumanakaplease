@@ -14,9 +14,9 @@
 
 .card {
     height: 70vh;
-    width: 80vw;
     border-radius: 13px;
-    background-color: black;
+    width: 80vw;
+    background-color:  black;
 }
 
 .product-canvas {
@@ -31,11 +31,13 @@
 .colors {
   display:flex;
   flex-direction:row;
-  color: white;
 }
 
 .colors div {
     padding:8px;
 }
 
+label {
+    color: rgb(250, 248, 248);
+}
 
