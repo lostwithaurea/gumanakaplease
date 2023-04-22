@@ -43,8 +43,7 @@ return (
   
   <center>
     <form ref={form} onSubmit={sendEmail}>
-      <br>
-      <br></br></br>
+      <br><br></br></br>
     <label>Name</label>
     <input type="text" name="user_name" />
     <label>Email</label>
