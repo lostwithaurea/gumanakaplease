@@ -30,7 +30,6 @@
 .colors {
   display:flex;
   flex-direction:row;
-  width: 15px;
 }
 
 .colors div {
@@ -40,6 +39,5 @@
 
 label {
     color: rgb(0, 0, 0);
-
 }
 
